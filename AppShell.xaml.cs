@@ -6,5 +6,6 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
         Routing.RegisterRoute(nameof(Views.AC_NotePage), typeof(Views.AC_NotePage));
+	
     }
 }
