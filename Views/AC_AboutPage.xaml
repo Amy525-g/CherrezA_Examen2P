@@ -7,7 +7,7 @@
     <ContentPage.BindingContext>
         <models:AC_About />
     </ContentPage.BindingContext>
-    <VerticalStackLayout Spacing="10" Margin="10">
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="Center" Padding="10">
         <HorizontalStackLayout Spacing="10">
             <Image Source="dotnet_bot.png"
                 SemanticProperties.Description="The dot net bot waving hello!"
@@ -18,5 +18,5 @@
 
         <Label Text="{Binding Message}" />
         <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
-    </VerticalStackLayout>
+    </FlexLayout>
 </ContentPage>

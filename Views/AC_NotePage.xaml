@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CherrezA_Examen2P.Views.AC_NotePage"
              Title="AmyCherrez_NotePage">
-    <VerticalStackLayout Spacing="10" Margin="5">
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="Center" Padding="10">
         <Editor x:Name="TextEditor"
             Placeholder="Enter your note"
             Text="{Binding Text}"
@@ -17,5 +17,5 @@
                 Text="Delete"
                 Clicked="DeleteButton_Clicked" />
         </Grid>
-    </VerticalStackLayout>
+    </FlexLayout>
 </ContentPage>
