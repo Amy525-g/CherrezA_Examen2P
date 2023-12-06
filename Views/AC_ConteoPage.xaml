@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CherrezA_Examen2P.Views.AC_ConteoPage"
+             Title="AC_ConteoPage">
+    <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="Center" Padding="10">
+        <Label x:Name="lblTotal" />
+        <Label x:Name="lblNumeros" />
+        <Label x:Name="lblLetras" />
+        <Label x:Name="lblVocales" />
+        <Label x:Name="lblMayusculas" />
+        <Label x:Name="lblMinusculas" />
+
+        <Entry x:Name="txtInput" Placeholder="Ingrese la cadena" />
+        <Button Text="Calcular" Clicked="BtnCalcular_Clicked" />
+        <Button Text="Limpiar" Clicked="BtnLimpiar_Clicked" />
+    </FlexLayout>
+</ContentPage>

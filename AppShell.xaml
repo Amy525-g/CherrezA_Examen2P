@@ -16,6 +16,11 @@
         Title="About"
         ContentTemplate="{DataTemplate views:AC_AboutPage}"
         Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+
+        <ShellContent
+        Title="Conteo de caracteres"
+        ContentTemplate="{DataTemplate views:AC_ConteoPage}"
+        Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
     </TabBar>
 
 </Shell>
